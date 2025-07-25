@@ -38,7 +38,7 @@ def edit_contact(name, parameter, change):
                 json.dump(content, wr)
                 print('Параметр успешно изменен!')
         else:
-            print('Нет такого контакта или параметра!')
+            print('Такого контакта или параметра нет и не будет!')
     else:
         print('Проверьте введенные данные!')
 
